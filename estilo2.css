@@ -1,0 +1,384 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+@media screen and (min-width: 350px) {
+    
+
+body{
+   
+    background-color: #ff5000;
+    background-image: url(/icon/Horizontal/Profibra_horizontal_color.png);
+    background-repeat: repeat;
+   
+    
+}
+
+
+
+
+.navBar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.205);
+    
+   
+    border-bottom-right-radius:60px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    
+    z-index: 2;
+    
+ }
+
+ 
+ 
+
+
+ .logo img{
+    border-radius: 2em;
+    border-style: solid;
+     display: block;
+     width: 10em;
+     height: min-content;
+     padding: 20px;
+   }
+ 
+
+ .menu{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+
+ .menu li{
+     list-style: none;
+     padding: 10px;
+     margin-left: 20px;
+    
+    }
+
+
+ 
+ .menu li a{
+     text-decoration:none;
+     color: #000; 
+     font-size: 20px;
+     font-weight: 900;
+     font-family: 'Akzidenz-Grotesk', bold;
+   
+ }
+ 
+ 
+ 
+
+.button img {
+    position: fixed;
+    background-color: #ffff;
+    right: 30px;
+    bottom: 30px;
+    font-size: 8px;
+    cursor: pointer;
+    width: 6em;
+    z-index:3;
+    border-radius: 30px;
+    transform:rotatez;
+    transition-duration :1s;  
+    
+    
+}
+
+.button img:hover{
+    transform: rotatez(360deg);
+
+}
+
+
+
+.inicio{
+    
+   width: 1350px;
+   height: 600px;
+   color: rgb(255, 123, 75);
+   
+   
+    
+  
+}
+
+.inicio h2{
+    font-family: 'Akzidenz-Grotesk', bold;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.slideshow-container {
+    
+    max-width: 1400px;
+  
+  
+}
+
+
+.mySlides {
+  margin-top: 70px;
+  display: none;
+  justify-content: center;
+  
+
+}
+
+.mySlides img{
+    height: 500px;
+    width: 97%;
+    object-fit: cover;
+    
+}
+
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.planes{
+  
+    background: transparent;
+   
+}
+
+.planes h2{
+    padding: 10px;
+   margin: 10px;
+    border-style: double;
+    border-radius: 20px;
+    font-family: 'Akzidenz-Grotesk', bold;
+}
+
+
+
+
+.ayuda{
+    background: transparent;
+    
+   
+}
+
+.ayuda h2{
+    padding: 10px;
+    margin: 30px;
+    border-style: double;
+    border-radius: 20px;
+    font-family: 'Akzidenz-Grotesk', bold;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: ;
+    margin: 30px 30px;
+}
+
+
+.cards img{
+    width: 10em;
+    background-color: #ffff;
+    border-radius: 20px;
+    border-style: double;
+   
+
+}
+
+
+.contacto{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:center;
+    margin-top: 50px;
+    justify-content: space-between;
+    background-color: #777e;
+    padding: auto;
+    width: 100%;
+    
+    
+    color: rgb(255, 123, 75);
+    
+}
+
+
+.contacto h2{
+    margin: 30px;
+    padding: 10px;
+    border-style: double;
+    border-radius: 20px;
+    font-family: 'Akzidenz-Grotesk', bold;
+}
+.form ::placeholder{
+    color: #000;
+}
+.form{
+    border-style: double;
+    border-radius: 20px;
+    background-color: rgba(87, 85, 85, 0.933);
+    margin: 30px;
+}
+
+.form input{ 
+    
+    width: 16em;
+   
+    border-style:double;
+   
+    border-radius: 2em;
+    border-color:rgb(255, 123, 75);
+    margin: 20px;
+    padding: 15px;
+    background: transparent;
+    transition-property: width, background;
+    transition-duration: .5s; 
+    
+}
+
+
+.form input[type="textarea"]{
+    min-height: 100px;
+}
+
+.form input:hover{
+    
+    background: rgb(255, 123, 75);
+  
+   
+
+}
+
+
+
+.contacto button{
+    width: 10em;
+    border-color: rgb(255, 123, 75);
+    border-style:double;
+    border-radius: 2em;
+    margin: 15px;
+    padding: 10px;
+    background: transparent;
+    transition-property: width, background;
+    transition-duration: .5s;  
+     
+}
+
+
+.contacto button:hover{
+    
+    background: rgb(255, 123, 75);
+    width: 16em;
+   
+
+}
+
+
+
+.contacto img{
+    
+    margin: 30px;
+    width: 700px;
+    height: 400px;
+    border-style: double;
+    border-radius: 1em;
+    border-color:rgb(255, 123, 75);
+    
+}
+
+
+
+.nosotros{
+    background-color: transparent;
+   
+   
+      
+   
+}
+
+.nosotros h2{
+    margin: 30px;
+    padding: 10px;
+    border-style: double;
+    border-radius: 20px;
+    font-family: 'Akzidenz-Grotesk', bold;
+    
+   
+}
+
+
+
+.nosotros img{
+   background-color: #ffff;
+   margin: 20px ;
+   width: 10em;
+   border-style:double;
+   border-radius: 2em;
+   border-color:rgb(255, 123, 75);
+  
+   
+   
+   
+    
+}
+
+
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   align-content:center;
+     font-family: 'Akzidenz-Grotesk', bold;
+    background-color: rgb(251, 112, 62);
+    padding: 30px;
+    
+    
+    
+   
+   
+   
+}
+
+.footer img{
+    margin: 30px;
+    width: 300px;
+    border-style: double;
+    border-radius: 1em;
+    
+   
+    
+}
+
+
+}
